@@ -1,0 +1,38 @@
+      Artikel 1
+
+
+
+
+Artikel 4
+@ Infoga en stor bild.
+Frames och tables ska inte användas för layout
+Använd inte frames, använd server-side includes istället (eller php, asp …). Använd inte tabeller för layout, använd CSS. Använd alltid H1-H6 för rubriker, om det inte räcker, lägg till tex h1.svart, om du vill ha flera H1-rubriker med olika färg. Google och andra blindsurfare förstår då fortfarande att det är en rubrik. 
+Utseendemässigt är det ingen skillnad på <i> och <em>, båda gör texten kursiv, men <i> är bara dekoration, <em> emphasis talar också om för besökaren att detta är något speciellt. Skilj på innehåll och utseende. Alltså: innehållet struktureras med HTML, medan utseendet styrs helt och hållet av CSS. Titta på tex http://www.csszengarden.com för inspiration.
+Använd gärna relativa mått som em, % och inte absoluta mått som px eller pt. Ev kombinerat med att sätta min- och max-värden för kritiska delar, tex menyns spaltbredd.
+Validera både HTML http://validator.w3.org/ och CSS http://jigsaw.w3.org/css-validator/. 
+Bild, ljud och video ska ha motsvarande innehåll som text.
+
+Med sunt förnuft kommer man långt
+Om det finns en standard, använd den. Tex om jag klickar på logotypen ska jag komma tillbaka till förstasidan. 
+Du ska inte förvirra eller irritera dina besökare. Bakåtknappen vet alla var den sitter.
+
+Du måste kunna grunderna först
+Reglerna eller snarare riktlinjerna har finslipats under lång tid. Du ska givetvis känna till dessa, men reglerna ska också tänjas, prövas, ifrågasättas och utvecklas. 
+Typografin och våra läsvanor har nog utvecklats/ändrats mer mellan 1996 (då Matthew Carter skapade Georgia och Verdana på uppdrag av Microsoft och internet slog igenom hos gemena man i Sverige) och idag än vad som skedde under hela 1900-talet.
+
+De vanligaste webbläsarna enligt statistik från W3C:
+Chrome 21 35%
+Firefox 15 18%
+Explorer 8 8%
+Explorer 9 6.5%
+Firefox 14 5%
+Chrome 22 4%
+Safari 5 2%
+Safari 6 2%
+Firefox 12 1.5%
+Firefox 13 1.5%
+Explorer 7 1%
+Opera 12 1%
+
+Av Mikael Becker, 2012-11-01
+Design, webb, webbläsare, semantik, HTML, CSS
